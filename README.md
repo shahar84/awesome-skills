@@ -1,6 +1,6 @@
 # Awesome Skills
 
-A curated collection of Claude Code skills by [Shahar Polak](https://github.com/shaharpolak) and the community.
+A curated collection of Claude Code skills by [Shahar Polak](https://github.com/shahar84) and the community.
 
 **Claude Code skills** are markdown files that teach Claude how to approach specific tasks — like a reusable prompt template that gets invoked automatically based on context.
 
@@ -13,7 +13,7 @@ A curated collection of Claude Code skills by [Shahar Polak](https://github.com/
 ## Install as a Plugin
 
 ```bash
-claude plugin install https://github.com/shaharpolak/awesome-skills
+claude plugin install https://github.com/shahar84/awesome-skills
 ```
 
 ## Use a Single Skill

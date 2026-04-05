@@ -5,8 +5,8 @@
   "author": {
     "name": "Shahar Polak"
   },
-  "homepage": "https://github.com/shaharpolak/awesome-skills",
-  "repository": "https://github.com/shaharpolak/awesome-skills",
+  "homepage": "https://github.com/shahar84/awesome-skills",
+  "repository": "https://github.com/shahar84/awesome-skills",
   "license": "MIT",
   "keywords": ["skills", "image-generation", "prompts", "claude-code"]
 }
