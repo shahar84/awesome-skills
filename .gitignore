@@ -1,0 +1,21 @@
+# IDE
+.idea/
+
+# macOS
+.DS_Store
+
+# Node
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Plugin local settings
+*.local.md
+
+# Logs
+*.log

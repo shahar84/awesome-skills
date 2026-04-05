@@ -1,0 +1,68 @@
+[
+  {
+    "id": "tc-01",
+    "description": "Simple avatar request - Hebrew",
+    "prompt": "תעשה לי פרומפט לאוואטר מקצועי של גבר בן 35, מהנדס היי-טק",
+    "expected": {
+      "format": "markdown_sections or JSON",
+      "must_include": ["identity preservation note or face reference", "camera/lens spec", "skin texture", "negative prompts"],
+      "must_NOT_include": ["plastic skin", "AI look in positive section"],
+      "output_type": "portrait/avatar"
+    }
+  },
+  {
+    "id": "tc-02",
+    "description": "Podcast cover from content - Remix Mode",
+    "prompt": "יש לי פרק פודקאסט על burn-out בהייטק. הפרק מדבר על מהנדסים שנשחקים אחרי שנים של sprint אינסופי. תעשה לי פרומפט לתמונת כיסוי",
+    "expected": {
+      "format": "any",
+      "must_include": ["thematic visual metaphor", "mood/atmosphere matching burnout", "aspect ratio", "color palette"],
+      "must_NOT_include": ["literal burnout flame (too cliche)"],
+      "output_type": "podcast cover / social media"
+    }
+  },
+  {
+    "id": "tc-03",
+    "description": "Infographic request",
+    "prompt": "I need an infographic showing the 5 stages of product development, dark tech style",
+    "expected": {
+      "format": "markdown_sections",
+      "must_include": ["layout structure", "color palette", "5 stages mentioned", "dark tech visual style"],
+      "must_NOT_include": [],
+      "output_type": "infographic"
+    }
+  },
+  {
+    "id": "tc-04",
+    "description": "Photorealistic candid smartphone photo",
+    "prompt": "Create a Nano Banana Pro prompt for a candid street photo of a woman drinking coffee at a Tel Aviv cafe, morning light",
+    "expected": {
+      "format": "JSON",
+      "must_include": ["specific phone model", "f-stop/aperture", "ISO", "no AI look", "natural grain/texture", "morning light color temp"],
+      "must_NOT_include": ["studio lighting", "cinematic"],
+      "output_type": "candid/street"
+    }
+  },
+  {
+    "id": "tc-05",
+    "description": "Artistic transformation - vague request",
+    "prompt": "תהפוך את זה לפרומפט בסגנון יפני",
+    "expected": {
+      "action": "ask clarifying question",
+      "must_include": ["question about what to transform or what subject"],
+      "must_NOT_include": ["full prompt without clarification"],
+      "output_type": "clarification needed"
+    }
+  },
+  {
+    "id": "tc-06",
+    "description": "LinkedIn post cover image",
+    "prompt": "I wrote a LinkedIn post about how AI is replacing junior developers. Need a cover image that's provocative but professional",
+    "expected": {
+      "format": "any",
+      "must_include": ["visual metaphor for AI vs human", "aspect ratio for LinkedIn (1:1 or 4:5)", "professional tone cue", "bold composition"],
+      "must_NOT_include": ["literal robots fighting humans (too on the nose)"],
+      "output_type": "social media"
+    }
+  }
+]

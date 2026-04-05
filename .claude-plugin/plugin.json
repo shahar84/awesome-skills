@@ -1,0 +1,12 @@
+{
+  "name": "awesome-skills",
+  "description": "A curated collection of Claude Code skills by Shahar Polak and the community",
+  "version": "1.0.0",
+  "author": {
+    "name": "Shahar Polak"
+  },
+  "homepage": "https://github.com/shaharpolak/awesome-skills",
+  "repository": "https://github.com/shaharpolak/awesome-skills",
+  "license": "MIT",
+  "keywords": ["skills", "image-generation", "prompts", "claude-code"]
+}
