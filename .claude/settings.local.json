@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(chmod +x validate.sh)",
+      "Bash(./validate.sh)",
+      "Bash(python3:*)",
+      "Skill(commit-commands:commit)",
+      "Bash(git rm:*)",
+      "Bash(git commit:*)",
+      "Bash(git add:*)",
+      "Bash(git push:*)"
+    ]
+  }
+}
